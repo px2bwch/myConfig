@@ -1,0 +1,56 @@
+alias al='alias'
+alias le='less'
+alias pls='sudo'
+alias sd='sudo'
+alias dns='nslookup'
+alias grep='grep --color=auto'
+alias his='history'
+alias et='exit'
+
+alias ..='cd ..'
+alias md='mkdir'
+alias ls='ls -F --color=auto'
+alias l='ls'
+alias la='ls -aF'
+alias ll='ls -ahlF'
+alias lc='ls -1 | wc -l'
+
+alias c='clear'
+alias cl='clear; ls'
+alias cll='clear; ls -lah'
+
+alias dk='sudo docker'
+alias dkb='sudo docker build'
+alias dc='sudo docker-compose'
+alias dkr='sudo docker run'
+alias dkp='sudo docker ps'
+alias dke='sudo docker exec'
+alias dkps='sudo docker ps -a'
+alias dkis='sudo docker images'
+alias dki='sudo docker image'
+alias dkc='sudo docker container'
+alias dkl='sudo docker logs'
+
+alias g='git'
+alias ga='git add'
+alias gls='git ls-files'
+alias gd='git diff'
+alias gc='git commit'
+alias gr='git restore'
+alias gs='git status'
+alias gl='git log'
+
+alias s='ssh'
+alias cc='cd /e/myFile/Coding'
+alias ccon="cd '//192.168.50.187/d/baidu_sync/My programs/config_public' "
+
+alias hl='help'
+alias gal='alias'
+alias dir='dir --color=auto'
+
+pls remember #source .bashrc
+
+aunch a new Git Bash window with a specified working directory:
+"C:\Program Files\Git\git-bash.exe" --cd="e:\SomeFolder"
+
+"//192.168.50.187/d/baidu_sync/My programs/config"
