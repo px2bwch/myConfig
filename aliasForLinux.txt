@@ -38,12 +38,11 @@ alias gd='git diff'
 alias gc='git commit'
 alias gr='git restore'
 aias gb='git branch'
-alias gs='git status'
-alias gl='git log'
+alias gs='git status -s'
+alias gl='git log --oneline --all --graph'
 
 alias s='ssh'
-alias cc='cd /e/myFile/Coding'
-alias ccon="cd '//192.168.50.187/d/baidu_sync/My programs/config_public' "
+alias ch='cd /e/myFile/Coding'
 
 alias hl='help'
 alias gal='alias'
@@ -53,5 +52,3 @@ pls remember #source .bashrc
 
 aunch a new Git Bash window with a specified working directory:
 "C:\Program Files\Git\git-bash.exe" --cd="e:\SomeFolder"
-
-"//192.168.50.187/d/baidu_sync/My programs/config"
