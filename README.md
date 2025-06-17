@@ -1,1 +1,2 @@
-# A folder to store common config files
+# It's just a folder to store common config files
+
